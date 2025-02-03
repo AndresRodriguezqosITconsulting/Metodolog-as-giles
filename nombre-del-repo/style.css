@@ -1,131 +1,62 @@
 body {
-  background-color: lightblue;
-  background-image: url("elden.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  
-
+    background-color: #f4f4f4;
+    color: #333;
 }
+
 header {
-    background-color: #f24208;
-    color: #fff;
-    padding: 1px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
     text-align: center;
-	}
+}
+
 nav {
-    display: flex;
-    justify-content: center;
-    background-color: black;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 nav ul li {
-    padding: 15px;
-    position: relative;
-
-}
-
-nav ul li:hover {
-    background-color: orange;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #6A5ACD;
+    color: white;
     text-decoration: none;
-	border: #DDA0DD 3px solid;
-}
-
-nav ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #555;
-}
-
-nav ul li:hover > ul {
-    display: inherit;
-}
-
-nav ul ul li {
-    width: 200px;
-    float: none;
-    display: list-item;
-    position: relative;
+    font-weight: bold;
 }
 
 .contenido-seccion {
-    display: none;
     padding: 20px;
-    background-color: grey;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contenido-seccion h2 {
-    color: #333;
-}
-
-:target {
-    display: block;
+h2 {
+    color: #4CAF50;
 }
 
 .menu-principal {
     display: block;
+    text-align: center;
     margin-top: 20px;
-    color: red;
+    color: #4CAF50;
     text-decoration: none;
-	
+    font-weight: bold;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 50px;
-  
-  
+.menu-principal:hover {
+    text-decoration: underline;
 }
-
-  
-  
-}
-
-h2 {
-  font-family: verdana;
-  font-size: 25px;
-  color: lightblue;
-  
-
-}
-h2 {
-  font-family: ComicSans;
-  font-size: 30px;
-  color: red;
-  text-align: justify;
-  border-bottom: white 3px inset;
-  border-width: medium;
-  text-align: center;
-  
-  }
-  h3 {
-	text-align: center;
-	color: black;
-	
-	}
-	p {
-		color: orange;
-		text-align: left;
-		text-align: center;
-		}
-  h4 {
-	text-align: justify;
-	color: black;
-	font-size: 16px;
-	}
